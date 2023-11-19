@@ -49,7 +49,7 @@ create table clanovi(
 grupa int not null,
 polaznik int not null
 );
---vanjski kljucevi
+--vanjski ključevi
 alter table grupe add foreign key(smjer) references smjerovi(sifra);
 alter table grupe add foreign key(predavac) references predavaci(sifra);
 alter table clanovi add foreign key(grupa) references grupe(sifra);
