@@ -12,16 +12,29 @@
 
 //Console.WriteLine("Unijeli ste " + Ime);
 
-//ulaz
-Console.Write("Unesi visinu u centimetrima: ");
-int Visina = int.Parse(Console.ReadLine());
+////TIPIČAN PROGRAM IMA
 
-//algoritam
-float VisinaUMetrima = (float)Visina / 100;
+////ulaz
+//Console.Write("Unesi visinu u centimetrima: ");
+//int Visina = int.Parse(Console.ReadLine());
 
-//izlaz
-Console.WriteLine("Visoki ste " + (float)Visina / 100 + " metara");
+////algoritam
+//float VisinaUMetrima = (float)Visina / 100;
 
-// Učitatati decimalni broj i ispisati ga
+////izlaz
+//Console.WriteLine("Visoki ste " + (float)Visina / 100 + " metara");
 
+//// Učitatati decimalni broj i ispisati ga
+///
 
+// Program unosi dužinu i širinu prostorije
+// Program ispisuje površinu prostorije
+
+Console.Write("Unesi dužinu prostorije: ");
+float Duzina = float.Parse(Console.ReadLine());
+Console.Write("Unesi širinu prostorije: ");
+float Sirina = float.Parse(Console.ReadLine());
+
+var Povrsina = Duzina * Sirina;
+
+Console.WriteLine(Povrsina);
