@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Reflection.Metadata.Ecma335;
 
-namespace WebaAPI.Controllers
+namespace WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -31,13 +30,12 @@ namespace WebaAPI.Controllers
             .ToArray();
         }
 
-        [HttpGet]
-        [Route("Hello")]
-           public string Helloworld(string Ime, int Godine, bool aktivan)
+        [HttpGet("Hello/{ime}")]
+        public string HelloWorld(string ime)
         {
-            return "Upisali ste " + Ime + ", koji ima" + Godine + " godina, " + aktivan;
+            return "Hello " + ime;
+
         }
-     
 
     }
 }
