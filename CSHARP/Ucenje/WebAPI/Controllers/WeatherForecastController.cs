@@ -30,12 +30,30 @@ namespace WebAPI.Controllers
             .ToArray();
         }
 
-        [HttpGet("Hello/{ime}")]
-        public string HelloWorld(string ime)
+        //[HttpGet("Hello/{ime}")]
+        //public string HelloWorld(string ime)
+        //{
+        //    return "Hello " + ime;
+        //}
+
+        //[HttpGet("Hello/{ime}/{prezime}/{godine}/{dostupan}")]
+
+        [HttpGet("Hello/{ime}/{prezime}/{godine}/{dostupan}")]
+
+        //[Route("Hello")]
+        public string Helloworld(string ime, string prezime, int godine, bool dostupan)
         {
-            return "Hello " + ime;
+            return ime + " " + prezime + " " + godine;
+
+            //return $"{ime} {prezime} {godine}";
+
+            //return $" upisali ste {ime} {prezime}, koji ima {godine} godine, {dostupan}";
+
 
         }
 
+ 
+
     }
+
 }
