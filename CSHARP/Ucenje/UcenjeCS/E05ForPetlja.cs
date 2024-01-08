@@ -124,7 +124,7 @@ namespace UcenjeCS
 
             }
 
-            // petlja (loop) se može prekinuti
+            // petlja (loop) se može prekinuti- break
 
             for (int i = 0; i < 10; i++)
             {

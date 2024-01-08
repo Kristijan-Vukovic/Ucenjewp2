@@ -54,7 +54,7 @@ namespace UcenjeCS
             uvjet = i != j; // provjera nejednakosti ( ako DA onda true ako NE onda false)
 
 
-            // operator modulo znak je postotak %
+            // operator modulo, piše se kao znak za postotak %
             // ostatak nakon cjelobrojnog djeljenja
             
             int ostatak = 9 % 4; //rezultat će biti 1,  9 podijeljeno sa 4 je 2 i do 9 ostane 1 (2*4=8 i do 9 ostane 1)
