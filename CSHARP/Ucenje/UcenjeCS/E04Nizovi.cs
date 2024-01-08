@@ -6,7 +6,7 @@ namespace UcenjeCS
     {
         public static void Izvedi()
         {
-            // krerao sam niz sa 12 integera (elemenata), u ovom slučju niz ima naziv temperature
+            // kreirao sam niz sa 12 integera (elemenata), u ovom slučju niz ima naziv temperature
             int[] temperature = new int[12];
             // prvi integer ( on ga naziva element) niza ima index 0
             // siječanj

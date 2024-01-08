@@ -9,4 +9,7 @@ using UcenjeCS;
 
 //E03UvijetnaGrananja.Izvedi();
 
-E04Nizovi.Izvedi();
+//E04Nizovi.Izvedi();
+
+//E05ForPetlja.Izvedi();
+V01ZimskoVjezbanje.Izvedi();
