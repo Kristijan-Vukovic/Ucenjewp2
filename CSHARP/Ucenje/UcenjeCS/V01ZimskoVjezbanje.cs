@@ -21,10 +21,13 @@ namespace UcenjeCS
             //    Console.WriteLine(i);
             //}
 
-            for (int i = 0 ; i < 100 ; i++)
+            for (int i = 0 ; i < 100 ; i++)// zadatak 3 -Napisati program koji ispisuje sve brojeve od 1 do 100 koji su cjelobrojno djeljivi s 7
             {
-                if (i % 7) Console.WriteLine(Console.WriteLine(i));
-
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+                
             }
 
         }
