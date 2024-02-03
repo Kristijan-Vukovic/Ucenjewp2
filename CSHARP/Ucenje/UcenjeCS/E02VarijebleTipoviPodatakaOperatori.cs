@@ -19,7 +19,7 @@ namespace UcenjeCS
 
             Console.WriteLine($"{i},{j}");
 
-
+            
             bool istina = i == 1;
 
             Console.WriteLine(istina);
@@ -90,7 +90,7 @@ namespace UcenjeCS
             // SVE VRIJEDI ISTOVJETNO i za dekrement (--)
 
 
-
+            
 
 
 

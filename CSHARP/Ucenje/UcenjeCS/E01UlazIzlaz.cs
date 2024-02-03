@@ -31,10 +31,6 @@ namespace UcenjeCS
             //Console.WriteLine(ime);
 
 
-            //Console.Write("Unesi Ime: ");
-            //string ime = Console.ReadLine();
-
-            //Console.WriteLine("Unijeli ste " + ime);
 
             //ulaz
             //Console.Write("Unesi visinu u centimetrima: ");
@@ -49,7 +45,9 @@ namespace UcenjeCS
 
 
             //izlaz
-            //Console.WriteLine($"Visoki ste {visinaumetrima} metara");
+            // Console.WriteLine($"Visoki ste {visinaumetrima} metara");
+
+
 
 
             //Console.Write("Unesi visinu u centimetrima: ");
@@ -59,7 +57,10 @@ namespace UcenjeCS
             //decimal izracunvisine = visine / 100m;
 
 
-            //Console.WriteLine($"Tvoja visina je: {izracunvisine}  metara ({visine / 100m} cm)");
+            //Console.WriteLine($"Tvoja visina je: {izracunvisine}  metara({visine / 100m} cm)");
+
+
+
 
 
             //Console.Write("ucitaj dec br ");
@@ -78,10 +79,13 @@ namespace UcenjeCS
 
             //var povrsina = duzina * sirina; var se koristi da bi ubrzao pisanje jer uvijek postaje onaj tip podatka koji se dobije sa desne strane znaka =
 
-            Console.WriteLine($"povrsina prostorije je: {povrsina} m2");//$ Znak dolara sluzi za interpolaciju odnosno ubacivanje različitih vrijednost u tekst stringa,
-                                                                        //interpolirane vrijednosti idu u vitičaste zagrade {}, rješavaš se pluseva, brže i čišće je
-                                                                        // unutar obične zagrade se nalazi PARAMETAR koji su potrebnimetodi kako bih ona izračunala rezultat 
-                                                                        // odnosno vratila ono za što je pozvana ili što se od nje traži
+             Console.WriteLine($"povrsina prostorije je: {povrsina} m2");//$ Znak dolara sluzi za interpolaciju odnosno ubacivanje različitih vrijednost u tekst stringa,
+            //interpolirane vrijednosti idu u vitičaste zagrade {}, rješavaš se pluseva, brže i čišće je
+            // unutar obične zagrade se nalazi PARAMETAR koji su potrebni metodi kako bih ona izračunala rezultat 
+            // odnosno vratila ono za što je pozvana ili što se od nje traži
+
+            
+
         }
 
     }
