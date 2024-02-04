@@ -14,4 +14,9 @@ using UcenjeCS;
 //E05ForPetlja.Izvedi();
 //V01ZimskoVjezbanje.Izvedi();*************
 
-E06WhilePetlja.Izvedi();
+//E06WhilePetlja.Izvedi();
+
+//E07DoWhilePetlja.Izvedi();
+
+E08ForEachPetlja.Izvedi();
+
