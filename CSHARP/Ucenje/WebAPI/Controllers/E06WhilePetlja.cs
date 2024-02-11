@@ -4,46 +4,38 @@ using System.Diagnostics.CodeAnalysis;
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("E06")]
-    public class E06WhilePetlja: ControllerBase
+    [Route("E07")]
+    public class E07Metode: ControllerBase
     {
         [HttpGet]
         [Route("zad1")]
-        public int[] Zad1(int brojevi)
+        public int Zad1(int PrviBroj, int DrugiBroj)
         {
-            // vraća niz s brojevima od 1 do brojevi
-            // koristeći while petlju
+           
+            // napišite metodu za dva primljena cijela
+            //broja vraća njihov zbroj
+            // neka ova metoda Zad1 vrati rezultat napisane metode zadatka
+           
+            return Zbroj(PrviBroj, DrugiBroj);
 
-            int[] niz = new int[brojevi];// deklariranje niza tako da ima onoliko elemenata kolka je vrijednost parametra brojevi
-            
-            int i = 0;
-            while (i++ < brojevi)
-            {
-                niz[i-1] = i;
-
-            }
-
-            return niz;
-
-            
         }
 
-        [HttpGet]
-        [Route("zad2")]
-        public int Zad2(int brojevi)
+        private int Zbroj(int prviBroj, int drugiBroj)
         {
-            //    // vraća zbroj svih brojeva od 1 do brojevi
-            //    // koristeći while petlju
-            //    // za 5 vraća 15
-            int suma = 0;
-            int i = 0;
-            while(++i <= brojevi)
-            {
-                suma += i;
-            }
-
-            return suma;
+            return prviBroj + drugiBroj;
         }
+
+        //DZ
+        // Kreirati rutu zad2 koja prima 4 cijela broja
+        // i vraća razliku prvi+drugi i treći+ četvrti
+        // koristite kreiranu metodu za zbroj dvaju brojeva
+
+
+        //Kreirati rutu ad3 koja prima ime grada i slovo.
+        //ruta vraća broj pojavljivanja slova u primljenom imenu grada
+        // koristiti metode
+
 
     }
+
     }

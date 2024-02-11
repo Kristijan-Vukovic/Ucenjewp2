@@ -18,5 +18,10 @@ using UcenjeCS;
 
 //E07DoWhilePetlja.Izvedi();
 
-E08ForEachPetlja.Izvedi();
+//E08ForEachPetlja.Izvedi();
+
+//E09Metode.Izvedi();
+
+Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
+
 
