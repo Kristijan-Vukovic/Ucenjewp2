@@ -22,6 +22,6 @@ using UcenjeCS;
 
 //E09Metode.Izvedi();
 
-Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
+//Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
 
-
+E10ObradaIznimki.Izvedi();
