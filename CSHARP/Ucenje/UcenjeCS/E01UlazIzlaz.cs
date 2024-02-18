@@ -33,15 +33,15 @@ namespace UcenjeCS
 
 
             //ulaz
-            //Console.Write("Unesi visinu u centimetrima: ");
+            Console.Write("Unesi visinu u centimetrima: ");
 
-            //int visina = int.Parse(Console.ReadLine());
+            int visina = int.Parse(Console.ReadLine(), System.Globalization.NumberStyles.AllowThousands);
 
             //algoritam
 
-            //decimal visinaumetrima = visina / 100m;
+            decimal visinaumetrima = visina / 100m;
 
-            //Console.WriteLine("Visoki ste " + visina / 100m + " metara");
+            Console.WriteLine("Visoki ste " + visina / 100m + " metara");
 
 
             //izlaz

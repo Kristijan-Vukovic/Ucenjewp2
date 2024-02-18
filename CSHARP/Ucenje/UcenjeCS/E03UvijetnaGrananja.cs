@@ -1,5 +1,7 @@
 ﻿
 
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.JavaScript;
 using System.Threading.Channels;
 
 namespace UcenjeCS
@@ -39,6 +41,10 @@ namespace UcenjeCS
                 Console.WriteLine("i nije manji o 5");
             }
 
+            
+
+
+
             // puni izgled if naredbe
 
             if (i == 2)
@@ -63,6 +69,8 @@ namespace UcenjeCS
                     Console.WriteLine("oba uvijeta su zadovoljena ugnježdeno");
                 }
             }
+
+            
 
 
             // korištenje logičkih operatora 
@@ -98,7 +106,7 @@ namespace UcenjeCS
             // logičko NE (!), uskličnik je operator, ( uskličnik je unarni operator što znači da se primjenjuje na ono što se nalazi nakon njega, samo negira ono što je iza. NPR. ako je iza njega vrijednost true on će ju pretvoriti u false i obrnuto
             // p.s operatori & i | su binarni i oni se primjenjuju i na vrijednosti njima sa lijeve desne starne
 
-            if(!(i==4 || j == 15))
+            if(!(i==4 || j == 15)) // bez uskličnika bi se čitalo ako je i 4 ili j 15 onda uđi u blok. a sa uskličnikom se čita ako nije istina da je i 4 ili j 15 onda uđi u blok.
             {
                 Console.WriteLine("Niti je i==4 niti je j==15");
             }
@@ -116,6 +124,12 @@ namespace UcenjeCS
 
             Console.WriteLine(broj > 10 ? "Osijek" : "Zagreb"); // čita se, ako je broj veći od 10 uzmi Osijek inače uzmi Zagreb
 
+            /* može i ovako, u ovom slučaju varijabla (poruka) se može koristiti pri pozivu metoda ili kao rezultat metode ili šta god
+            var poruka = broj < 10 ? "manji je od 10" : "Slavonski Brod";
+            Console.WriteLine(poruka);
+            */
+
+
             // VIŠESTRUKO GRANANJE ----switch naredba grananja, u switchu se provjerava samo je li varijabla jednaka nekoj vrijednosti dok u if-u ili else-u možeš koristiti više različitih varijabli i ne mora nužno biti samo jednako
             // - switch znači,
             // uzmi mi vrijednost varijable (u primjeru je to ocjena) u slučaju da joj je vrijednost
@@ -124,9 +138,9 @@ namespace UcenjeCS
 
             int ocjena = 4;
 
-            switch (ocjena)
+            switch (ocjena) // ov o je isto kao i if ili else if ali.... kod njih možeš imati =, <,> ,&& itd dok switch ima samo ako je jednako = 
             {
-                case 1: 
+                case 1: // iza svakog casea mora ići break;
                     Console.WriteLine("Nedovoljan");
                     break;
                 case 2:
@@ -135,7 +149,7 @@ namespace UcenjeCS
                 case 3:
                     Console.WriteLine("Dobar");
                     break;
-                // ovo iznd se može pisati i zajedno ako se treba izvršiti ista stvar
+                // ovo iznad se može pisati i zajedno ako se treba izvršiti ista stvar, ovo je jedina iznimka kada ne ide break odmah na kraju casea , zato što ide case za caseom
                 //case 2:
                 //case 3:
                 //    Console.WriteLine("dovoljan ili dobar");
@@ -162,6 +176,13 @@ namespace UcenjeCS
                     Console.WriteLine("Super");
                     break;
             }
+
+            
+
+
+         
+
+
         }
 
     }

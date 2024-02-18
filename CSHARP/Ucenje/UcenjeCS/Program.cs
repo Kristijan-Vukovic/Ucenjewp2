@@ -7,7 +7,7 @@ using UcenjeCS;
 
 //E02VarijebleTipoviPodatakaOperatori.Izvedi();
 
-//E03UvijetnaGrananja.Izvedi();
+E03UvijetnaGrananja.Izvedi();
 
 //E04Nizovi.Izvedi();
 
@@ -24,4 +24,4 @@ using UcenjeCS;
 
 //Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
 
-E10ObradaIznimki.Izvedi();
+//E10ObradaIznimki.Izvedi();
