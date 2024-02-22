@@ -14,7 +14,7 @@ namespace UcenjeCS
 
 
 
-            // ispisi različitih tipova podataka
+            //ispisi različitih tipova podataka
             //Console.WriteLine(7); // int
             //Console.WriteLine(true);// bool
             //Console.Write("Prvi");// string
@@ -22,7 +22,7 @@ namespace UcenjeCS
             //Console.WriteLine(3.14);// float ( ustvari double)
 
 
-            // varijabla je prostor u memoriji
+            //varijabla je prostor u memoriji
 
             //Console.Write("Unesi ime: ");
             //string ime = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace UcenjeCS
             //ulaz
             Console.Write("Unesi visinu u centimetrima: ");
 
-            int visina = int.Parse(Console.ReadLine(), System.Globalization.NumberStyles.AllowThousands);
+            int visina = int.Parse(Console.ReadLine()/*( , System.Globalization.NumberStyles.AllowThousands  - parametar koji se odnosi na dozvoli unos tisućica   */);
 
             //algoritam
 

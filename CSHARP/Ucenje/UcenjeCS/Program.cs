@@ -7,11 +7,11 @@ using UcenjeCS;
 
 //E02VarijebleTipoviPodatakaOperatori.Izvedi();
 
-E03UvijetnaGrananja.Izvedi();
+//E03UvijetnaGrananja.Izvedi();
 
 //E04Nizovi.Izvedi();
 
-//E05ForPetlja.Izvedi();
+E05ForPetlja.Izvedi();
 //V01ZimskoVjezbanje.Izvedi();*************
 
 //E06WhilePetlja.Izvedi();
