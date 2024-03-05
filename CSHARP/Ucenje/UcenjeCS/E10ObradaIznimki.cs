@@ -14,15 +14,24 @@ namespace UcenjeCS
 
             int pb = UcitajBroj("Unesi prvi broj: ");
             int db = UcitajBroj("Daj mi i drugi: ");
-            IspisiBrojeve(pb, db);
+
+         
+                IspisiBrojeve(pb, db);
+  
         }
 
         private static void IspisiBrojeve(int pb, int db)
         {
-            throw new NotImplementedException();
+            var Manji = pb <= db ? pb : db;
+            var Veci = pb >= db ? pb : db;
+
+            for (int i = Manji; i<= Veci; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
 
-        private static int UcitajBroj(string v)
+        private static int UcitajBroj(string v) 
         {
             for (; ; )
             {
@@ -34,6 +43,19 @@ namespace UcenjeCS
                 catch (FormatException e)
                 {
                     Console.WriteLine("Nisi unio broj");
+                }
+                catch(OverflowException)
+                {
+                    Console.WriteLine("Nešto gadno ne valja");
+                }
+                // mogao bi još uhvatiti ArgumentNullException
+                catch (Exception) // Ovdje hvatam bilo koju iznimku koja nije prethodno definirana
+                {
+                    Console.WriteLine("Oooops");
+                }
+                finally 
+                { 
+                    Console.WriteLine("Mejsto na koje se dolazi pukao ti ili ne"); 
                 }
             }
          

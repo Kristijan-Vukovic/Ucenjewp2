@@ -11,7 +11,7 @@ using UcenjeCS;
 
 //E04Nizovi.Izvedi();
 
-E05ForPetlja.Izvedi();
+//E05ForPetlja.Izvedi();
 //V01ZimskoVjezbanje.Izvedi();*************
 
 //E06WhilePetlja.Izvedi();
@@ -25,3 +25,11 @@ E05ForPetlja.Izvedi();
 //Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
 
 //E10ObradaIznimki.Izvedi();
+
+//E10Copy.Izvedi();
+
+//E11Rekurzija.Izvedi();
+
+Z02Vjezba.Izvedi();
+
+
